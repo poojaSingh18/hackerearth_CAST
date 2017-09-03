@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Styles for header */
+
+#headerLogoStyle {
+    width: 243px;
+}
+/*Each Language in Menu Styles*/
+
+.language_menu_style {
+    margin: 25px 65px 2px 65px;
+}
+.language_box_style {
+    display: inline-block;
+    height: 170px;
+    width: 250px;
+    border: 1px solid #abaec4;
+    border-radius: 46%;
+    background-color: #ccc;
+    text-align: center;
+    box-shadow: 7px 8px 14px #a4b5b6;
+    margin: 20px 45px;
+    padding: 20px;
+}
+.language_box_style > img {
+    height: 60px;
+    width: 60px;
+}
+.language_box_style p:first-of-type {
+    font-size: 32px;
+    margin: 10px;
+    font-family: monospace;
+}
+.language_box_style p:nth-child(3) {
+    display: inline-flex;
+}
+.language_box_style span {
+    margin: 3px 6px 0px 6px;
+    color: #862020;
+    letter-spacing: 1px;
+}
+/*Search div styles*/
+
+.search {
+    width: 25%;
+    position: relative
+}
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid cadetblue;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.searchTerm:focus {
+    color: #00B4CC;
+}
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid cadetblue;
+    background: cadetblue;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.repo_header {
+    display: flex;
+    padding: 5px 0px 20px 0px;
+    border-bottom: 2px solid #ccc;
+}
+.repo_header div:first-of-type {
+    margin: 0;
+    margin-right: 55%;
+}
+.repo_header div:first-of-type > h2 {
+    color: #aead0e;
+}
+.repo_header div:first-of-type h5 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/*Styles for each repository div*/
+
+.repository_list_div {
+    border: 1px solid #dbe3fd;
+    padding: 0px 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #fdfafa;
+    box-shadow: 5px 5px 2px #c7d2d8;
+}
+.repository_list_div > div {
+    display: flex;
+}
+.repository_list_div h3 {
+    color: #0031ff;
+}
+.repository_list_div h5 {
+    color: #9E9E9E;
+}
+.repo_lang_rating {
+    margin: auto;
+    margin-right: 0px;
+    padding-right: 10px;
+    display: flex;
+    width: 38%;
+}
+.repo_lang_rating > p {
+    width: 80%;
+    display: flex;
+}
+.repo_lang_rating > p > svg {
+    color: rgba(174, 197, 25, 0.87) !important;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.repo_lang_rating p:nth-child(2) {
+    display: flex;
+    padding-left: 63%;
+}
+.repo_lang_rating p:nth-child(2) > svg {
+    color: #FFEB3B !important;
+    margin-right: 10px;
+}
+.repo_name_des h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.repo_name_des p {
+    margin-top: 5px;
+    color: #546c6d;
+    font-style: italic;
+}
+/*User Profile Styles*/
+
+.user_profile {
+    display: inline-flex;
+}
+.user_profile_header {
+    width: 25%;
+    margin: 40px 30px 0px 0px;
+    border-right: 2px solid #ccc;
+    text-align: center;
+}
+.user_repository_list_div {
+    width: 45% !important;
+    margin-right: 20px !important;
+}
+.user_repos_array_style {
+    width: 100% !important;
+    display: inline-flex;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*CSS for Pagination*/
+
+.pagination {
+    display: inline-flex;
+    margin: 30px 0px;
+}
+.pagination div {
+    font-size: 21px;
+    margin: 0px 20px;
+    color: #de7856;
+    font-weight: 600;
+}
